@@ -11,7 +11,11 @@ labels = ['Math', 'English', 'Physics', 'Computer']
 names = ['Bill', 'Mary']
 
 # ******************************
-# Make your code
+# fig, ax = plt.subplots()
+bar1 = ax.bar(x-width*1.5, Math, width)
+bar2 = ax.bar(x-width*0.5, English, width)
+bar3 = ax.bar(x+width*1.5, Physics, width)
+bar4 = ax.bar(x+width*0.5, Computer, width)
 # ******************************
 
 
